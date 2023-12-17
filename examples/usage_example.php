@@ -4,7 +4,7 @@
 $pdo = new PDO('mysql:host=localhost;dbname=orm', 'root', '');
 
 // Inclusion de la classe ORM
-include '../src/SimpleORM.php'; // Assurez-vous que le fichier contenant la classe SimpleORM est inclus
+include '../src/SimpleORM.php'; 
 
 // Création d'une instance de l'ORM
 $orm = new SimpleORM($pdo, 'users');
